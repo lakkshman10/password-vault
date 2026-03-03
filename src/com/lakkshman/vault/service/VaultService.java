@@ -11,7 +11,7 @@ import java.util.List;
 
 public class VaultService {
 
-    private VaultData vaultData;
+    private final VaultData vaultData;
     private final SecretKey secretKey;
     private final byte[] salt;
     private final Path vaultPath;
