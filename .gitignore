@@ -1,18 +1,20 @@
-### IntelliJ IDEA ###
+# IntelliJ
 .idea/
 *.iml
 out/
-*.dat
 
-### Maven ###
+# Maven
 target/
 
-### Logs ###
+# Logs
 *.log
 
-### OS Files ###
+# OS
 .DS_Store
 Thumbs.db
 
-### VS Code ###
+# VS Code
 .vscode/
+
+# Application Data (Security)
+*.dat
