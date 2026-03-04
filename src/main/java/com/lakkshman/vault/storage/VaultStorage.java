@@ -1,8 +1,8 @@
-package com.lakkshman.vault.storage;
+package main.java.com.lakkshman.vault.storage;
 
 import com.google.gson.Gson;
-import com.lakkshman.vault.model.VaultData;
-import com.lakkshman.vault.security.KeyManager;
+import main.java.com.lakkshman.vault.model.VaultData;
+import main.java.com.lakkshman.vault.security.KeyManager;
 
 import javax.crypto.AEADBadTagException;
 import javax.crypto.Cipher;

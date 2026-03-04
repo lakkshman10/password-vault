@@ -1,7 +1,7 @@
-package com.lakkshman.vault.cli;
+package main.java.com.lakkshman.vault.cli;
 
-import com.lakkshman.vault.model.Credential;
-import com.lakkshman.vault.service.VaultService;
+import main.java.com.lakkshman.vault.model.Credential;
+import main.java.com.lakkshman.vault.service.VaultService;
 
 import java.util.List;
 import java.util.Scanner;

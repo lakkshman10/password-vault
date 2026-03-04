@@ -1,6 +1,7 @@
-package com.lakkshman.vault.service;
+package test.java.com.lakkshman.vault.service;
 
-import com.lakkshman.vault.model.VaultData;
+import main.java.com.lakkshman.vault.model.VaultData;
+import main.java.com.lakkshman.vault.service.VaultService;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 

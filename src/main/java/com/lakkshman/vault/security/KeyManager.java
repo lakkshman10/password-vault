@@ -1,4 +1,4 @@
-package com.lakkshman.vault.security;
+package main.java.com.lakkshman.vault.security;
 
 import javax.crypto.SecretKey;
 import javax.crypto.SecretKeyFactory;

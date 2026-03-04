@@ -1,4 +1,4 @@
-package com.lakkshman.vault.model;
+package main.java.com.lakkshman.vault.model;
 
 import java.util.UUID;
 
