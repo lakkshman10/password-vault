@@ -51,10 +51,22 @@ public class VaultService {
     }
 
     public void save() {
+        if (secretKey == null) {
+            return; // skip saving in test mode
+        }
+
         try {
             VaultStorage.saveVault(vaultData, secretKey, salt, vaultPath);
         } catch (Exception e) {
             throw new RuntimeException("Failed to save vault", e);
         }
     }
+
+    public VaultService(VaultData vaultData) {
+        this.vaultData = vaultData;
+        this.secretKey = null;
+        this.salt = null;
+        this.vaultPath = null;
+    }
+
 }
