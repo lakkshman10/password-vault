@@ -1,4 +1,4 @@
-![Build](https://github.com/lakkshman10/password-vault/actions/workflows/maven.yml/badge.svg)
+![Build](https://github.com/lakkshman10/password-vault/actions/workflows/ci.yml/badge.svg)
 # 🔐 Password Vault (Java)
 
 A secure command-line password manager built in **Java** that stores credentials using strong encryption.
