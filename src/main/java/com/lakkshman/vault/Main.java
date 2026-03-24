@@ -1,10 +1,10 @@
-package main.java.com.lakkshman.vault;
+package com.lakkshman.vault;
 
-import main.java.com.lakkshman.vault.cli.VaultCLI;
-import main.java.com.lakkshman.vault.model.VaultData;
-import main.java.com.lakkshman.vault.security.KeyManager;
-import main.java.com.lakkshman.vault.service.VaultService;
-import main.java.com.lakkshman.vault.storage.VaultStorage;
+import com.lakkshman.vault.cli.VaultCLI;
+import com.lakkshman.vault.model.VaultData;
+import com.lakkshman.vault.security.KeyManager;
+import com.lakkshman.vault.service.VaultService;
+import com.lakkshman.vault.storage.VaultStorage;
 
 import javax.crypto.SecretKey;
 import java.nio.file.Files;

@@ -1,4 +1,4 @@
-package main.java.com.lakkshman.vault.model;
+package com.lakkshman.vault.model;
 
 import java.util.ArrayList;
 import java.util.List;

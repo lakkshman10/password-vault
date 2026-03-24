@@ -1,8 +1,8 @@
-package main.java.com.lakkshman.vault.service;
+package com.lakkshman.vault.service;
 
-import main.java.com.lakkshman.vault.model.Credential;
-import main.java.com.lakkshman.vault.model.VaultData;
-import main.java.com.lakkshman.vault.storage.VaultStorage;
+import com.lakkshman.vault.model.Credential;
+import com.lakkshman.vault.model.VaultData;
+import com.lakkshman.vault.storage.VaultStorage;
 
 import javax.crypto.SecretKey;
 import java.nio.file.Path;
